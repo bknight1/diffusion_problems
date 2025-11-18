@@ -6,5 +6,3 @@ git clone --single-branch --branch main https://github.com/bknight1/diffusionDec
 cd diffusionDecayIngrowth
 ### move the folder to the main directory
 mv Poisson_solver_implementation ../
-### delete branch
-rm -rf diffusionDecayIngrowth
