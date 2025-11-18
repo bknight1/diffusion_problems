@@ -1,3 +1,5 @@
+#!/bin/bash -v
+
 ### clone branch
 git clone --single-branch --branch main https://github.com/bknight1/diffusionDecayIngrowth.git
 ### change into branch
