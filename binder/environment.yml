@@ -1,0 +1,34 @@
+name: uw3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - compilers
+  - openmpi
+  - openmpi-mpicc
+  - openmpi-mpicxx
+  - petsc
+  - petsc4py
+  - cython=3.*
+  - mpmath<=1.3
+  - mesalib
+  - numpy
+  - scipy
+  - mpi4py
+  - h5py
+  - sympy
+  - pytest
+  - ipython
+  - pyvista
+  - pip
+    # gmsh dependencies (prefer not to use apt.txt)
+  - gmsh
+  - xorg-libxft
+  - xorg-libxinerama
+  - pip:
+      - gmsh-api
+      - jupyterlab
+      - jupytext
+      - pygments
+      - trame-vtk
+      - trame-vuetify

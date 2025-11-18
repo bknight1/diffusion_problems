@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+cd underworld3
+git stash
+git pull
+./compile.sh
+cd ..
+
+
+## This is not required for the conda-forge version of petsc but
+## it is needed if we install the uw3_env dependencies
+
+export PYTHONPATH=$CONDA_PREFIX/lib/ 
+
+exec "$@"
