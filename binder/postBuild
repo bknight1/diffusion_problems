@@ -49,7 +49,7 @@ cd underworld3
 
 cd ..
 
-git clone --single-branch --branch development https://github.com/bknight1/diffusionDecayIngrowth.git
+git clone --single-branch --branch main https://github.com/bknight1/diffusionDecayIngrowth.git
 
 
 echo
