@@ -47,10 +47,6 @@ git clone --single-branch --branch development https://github.com/underworldcode
 cd underworld3
 ./compile.sh
 
-cd ..
-
-git clone --single-branch --branch main https://github.com/bknight1/diffusionDecayIngrowth.git
-
 
 echo
 echo Completed
