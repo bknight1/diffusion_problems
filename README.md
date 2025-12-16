@@ -7,4 +7,4 @@ All diffusion benchmarks can be run from the [Run_diffusion_benchmarks.ipynb](ht
 
 We also have a bilder, where all models can be run in the cloud (but may take a while to run)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bknight1/diffusionDecayIngrowth/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bknight1/diffusion_problems/main)
