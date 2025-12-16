@@ -43,9 +43,9 @@ export CC=`which mpicc`
 
 # Build / install uw3 and UWDiffusion in this repo
 
-pip3 install git+https://github.com/underworldcode/underworld3.git@development
-
-pip3 install git+https://github.com/bknight1/UWDiffusion.git@main
+git clone --single-branch --branch development https://github.com/underworldcode/underworld3.git
+cd underworld3
+./compile.sh
 
 echo
 echo Completed
