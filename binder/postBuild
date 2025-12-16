@@ -41,16 +41,11 @@ export CC=`which mpicc`
 # python -c "import petsc4py; print(petsc4py.get_config())"
 # python -c "from petsc4py import PETSc; print('Imported PETSc')"
 
-# Build / install the uw3 in this repo
+# Build / install uw3 and UWDiffusion in this repo
 
-git clone --single-branch --branch development https://github.com/underworldcode/underworld3.git
-cd underworld3
-./compile.sh
+pip3 install git+https://github.com/underworldcode/underworld3.git@development
 
-cd ..
-git clone --single-branch --branch main https://github.com/bknight1/UWDiffusion.git
-cd UWDiffusion
-pip install .
+pip3 install git+https://github.com/bknight1/UWDiffusion.git@main
 
 echo
 echo Completed
