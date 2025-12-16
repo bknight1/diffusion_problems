@@ -8,7 +8,9 @@ git pull
 ./compile.sh
 cd ..
 
-git clone --single-branch --branch main https://github.com/bknight1/diffusionDecayIngrowth.git
+pip3 install git+https://github.com/bknight1/UWDiffusion.git@main
+
+git clone --single-branch --branch main https://github.com/bknight1/diffusion_problems.git
 
 ## This is not required for the conda-forge version of petsc but
 ## it is needed if we install the uw3_env dependencies
